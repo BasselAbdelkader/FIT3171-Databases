@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8CFDCD1-3C54-0530-6B44-C988EB9E5421" name="CLINIC_VETS">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="clinic_id" id="885C3071-ABEC-E2F6-649D-1726AFCB27F4">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53EC6C22-C94E-D8D0-3DDD-BE014D1A76BD" referredColumn="2E13A547-C885-D523-BA27-9086FDE35EF7"/>
+</associations>
+</Column>
+<Column name="vet_id" id="D59B5DBE-6FBA-1858-EAB7-B6FCE2736DEB">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD77F62F-2AF3-B8A5-A491-1E129F724C9F" referredColumn="100690CE-B102-68E3-25C2-FEB5621019D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77E8912E-B447-0032-AB3B-10BF47E57367" name="CLINIC_VETS_PK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="885C3071-ABEC-E2F6-649D-1726AFCB27F4"/>
+<colUsage columnID="D59B5DBE-6FBA-1858-EAB7-B6FCE2736DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A3ED4D5-ED91-343F-2713-E655D4EACFF8" name="CLINIC_VETS_CLINIC_FK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<generatorID>37D3FB12-F7FE-957C-82A9-DB9519811105</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="885C3071-ABEC-E2F6-649D-1726AFCB27F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75CCD448-C63D-5E49-3B20-B809E542BE46" name="CLINIC_VETS_VET_FK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<generatorID>37D3FB12-F7FE-957C-82A9-DB9519811105</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D59B5DBE-6FBA-1858-EAB7-B6FCE2736DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
