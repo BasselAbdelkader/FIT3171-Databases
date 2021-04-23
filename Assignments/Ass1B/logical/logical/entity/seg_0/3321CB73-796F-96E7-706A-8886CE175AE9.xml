@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prescription_id" id="3F994822-9FBD-D9E5-2F3A-E5B3C0445282">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 12:52:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="visit_date" id="CED91F77-E9A4-285D-81AF-50A7ADCEFAA9">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 01:29:20 UTC</createdTime>
@@ -91,14 +105,26 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="26EC549D-D8F2-D54E-FAD1-C4BBF239576D" name="PRESCRIPTION PK">
+<identifier id="B4DCC0C9-CBB7-A16E-F540-8DAE80D4D592" name="PRESCRIPTION PK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 01:11:59 UTC</createdTime>
+<createdTime>2021-04-23 12:52:44 UTC</createdTime>
 <ownerDesignName>logical</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>3F994822-9FBD-D9E5-2F3A-E5B3C0445282</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="72985429-A63E-DFB3-00BB-310FB4225DA5" name="PRESCRIPTION NK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 12:56:14 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<newElementsIDs>587BA5E5-2196-3D62-A2E9-A1A0D9C3EF60,B6BF24D0-9A17-8EBE-3903-88A861F5E046</newElementsIDs>
 <usedAttributes>
 <attributeRef>CED91F77-E9A4-285D-81AF-50A7ADCEFAA9</attributeRef>
 <attributeRef>2C974D80-939D-FDC1-066B-993EB80DA451</attributeRef>

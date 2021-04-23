@@ -78,20 +78,6 @@
 </listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pet_type" id="A5878C67-9718-F580-A3B1-92DCFA01BEB4">
-<createdBy>Bassel</createdBy>
-<createdTime>2021-04-22 17:59:52 UTC</createdTime>
-<commentInRDBMS><![CDATA[pet type]]></commentInRDBMS>
-<ownerDesignName>logical</ownerDesignName>
-<engineerTo>
-<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="pet_dob" id="E53A0FE8-A048-3F06-35CE-98044355B0AB">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 18:01:10 UTC</createdTime>
@@ -118,6 +104,22 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pet_type_code" id="4D35F270-3304-5DB3-A945-7561F18D9B7A">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 12:35:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet type code]]></commentInRDBMS>
+<generatorID>18D27E72-AF57-0CE6-71C8-0C58CBB4B6C4</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<referedAttribute>9A5B1712-BC10-9429-AE17-A6B800489EBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
