@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDA7483D-C5D1-9EE0-EBC7-57AC40D9BAD9" name="VISIT">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<generatorID>09B0D26C-2597-6864-46F1-D1F15B48BDA2</generatorID>
+<ownerDesignName>oracle_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="visit_date" id="CEFF492D-EDF3-B01D-9498-A0F8DDEB0881">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit_date]]></commentInRDBMS>
+<generatorID>F178023C-5A6A-0C2D-F396-D75BC9ECFF93</generatorID>
+<ownerDesignName>oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pet_id" id="2238A256-A9C6-978B-2DCA-400C746742C0">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet_id]]></commentInRDBMS>
+<generatorID>D108BD05-461D-34F5-9835-E322C44957D3</generatorID>
+<ownerDesignName>oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="visit_length" id="0908FF28-5048-7E70-D755-916D33FCC467">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit length]]></commentInRDBMS>
+<generatorID>6FE70D43-ED45-8F3E-6D7B-CCF5D0F5EAD0</generatorID>
+<ownerDesignName>oracle_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="visit_notes" id="44DB0D6D-CC3C-E4F6-2F15-8A83AB0033A1">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit notes]]></commentInRDBMS>
+<generatorID>7356655B-6E97-7E3D-7AC4-DA2EB2734A8C</generatorID>
+<ownerDesignName>oracle_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB278A15-08E9-B154-F203-B5BFDAA0313D" name="VISIT_PK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<generatorID>7D3ABF97-448D-5AB2-DCB3-9DBE3955AB76</generatorID>
+<ownerDesignName>oracle_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEFF492D-EDF3-B01D-9498-A0F8DDEB0881"/>
+<colUsage columnID="2238A256-A9C6-978B-2DCA-400C746742C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
