@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLINC_VISITS" directorySegmentName="seg_0" id="134D2248-FE9B-7FB9-35F0-3D2EDE0371FA">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 14:25:04 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<sourcePk>425F69C9-92B7-662B-4DA2-216C05F68D16</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>sends vet</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E25DF9B2-2D5E-B767-EED3-865521ABF602</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09B0D26C-2597-6864-46F1-D1F15B48BDA2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

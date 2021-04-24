@@ -42,6 +42,38 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="owner_id" id="9E8022C5-AABA-B677-A787-D53977A45E60">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 14:23:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner id]]></commentInRDBMS>
+<generatorID>73C41098-DB48-D32B-F34A-911DB4DFDA1B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<referedAttribute>394306C1-080F-0464-FA4D-8151DE1F0BE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clinic_id" id="D8043CAE-7F8A-8DF9-0705-6EE1DC447828">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 14:25:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[clinic id]]></commentInRDBMS>
+<generatorID>134D2248-FE9B-7FB9-35F0-3D2EDE0371FA</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<referedAttribute>84683057-1A4E-9471-BFCA-20D1F36B912F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="visit_length" id="6FE70D43-ED45-8F3E-6D7B-CCF5D0F5EAD0">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 00:04:29 UTC</createdTime>
