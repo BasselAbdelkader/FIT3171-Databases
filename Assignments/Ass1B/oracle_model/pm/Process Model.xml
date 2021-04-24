@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D933B6E2-2F95-A47A-6F20-FC2F9067EBA9">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-21 19:52:24 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
