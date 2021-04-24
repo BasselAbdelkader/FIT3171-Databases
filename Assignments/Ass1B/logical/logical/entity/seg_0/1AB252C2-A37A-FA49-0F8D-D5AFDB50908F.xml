@@ -43,10 +43,10 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="serv_time" id="0DCB2710-2783-B82C-44AF-5A1CD768ADF8">
+<Attribute name="invoice_serv_time" id="0DCB2710-2783-B82C-44AF-5A1CD768ADF8">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 19:09:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[service time]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[invoice_service time]]></commentInRDBMS>
 <ownerDesignName>logical</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
@@ -57,10 +57,10 @@
 <dataTypeSize>5</dataTypeSize>
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="serv_date" id="1814A60D-0502-3304-ECCF-685CE035FB1B">
+<Attribute name="invoice_serv_date" id="1814A60D-0502-3304-ECCF-685CE035FB1B">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 19:09:54 UTC</createdTime>
-<commentInRDBMS><![CDATA[service date]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[invoice_service date]]></commentInRDBMS>
 <ownerDesignName>logical</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
@@ -70,10 +70,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="amount_due" id="AD3CC0AE-C573-57F1-C9C9-02E78297FDB8">
+<Attribute name="invoice_amount_due" id="AD3CC0AE-C573-57F1-C9C9-02E78297FDB8">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 19:11:16 UTC</createdTime>
-<commentInRDBMS><![CDATA[amount due]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[invoice_amount due]]></commentInRDBMS>
 <ownerDesignName>logical</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
@@ -85,10 +85,10 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="payment_method" id="4DD258FD-FDE6-4874-0419-8AB24E281644">
+<Attribute name="invoice_payment_method" id="4DD258FD-FDE6-4874-0419-8AB24E281644">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 19:12:04 UTC</createdTime>
-<commentInRDBMS><![CDATA[payment method]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[invoice_payment method]]></commentInRDBMS>
 <ownerDesignName>logical</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>

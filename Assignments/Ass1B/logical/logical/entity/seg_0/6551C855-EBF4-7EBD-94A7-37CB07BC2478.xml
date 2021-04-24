@@ -56,10 +56,10 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="qty_supplied" id="9C4ECCA7-1435-66FC-8D58-0CEBCE158086">
+<Attribute name="drug_qty_supplied" id="9C4ECCA7-1435-66FC-8D58-0CEBCE158086">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 22:15:46 UTC</createdTime>
-<commentInRDBMS><![CDATA[quantity supplied]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[drug_quantity supplied]]></commentInRDBMS>
 <ownerDesignName>logical</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>

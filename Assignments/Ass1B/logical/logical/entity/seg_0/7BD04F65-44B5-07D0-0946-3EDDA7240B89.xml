@@ -57,10 +57,10 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="prefvet_id" id="30EDA011-7E28-758B-7779-C0FB2E277EC2">
+<Attribute name="owner_prefvet_id" id="30EDA011-7E28-758B-7779-C0FB2E277EC2">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 17:23:24 UTC</createdTime>
-<commentInRDBMS><![CDATA[preferred vet id]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[owner preferred vet id]]></commentInRDBMS>
 <ownerDesignName>logical</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>

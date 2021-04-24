@@ -73,12 +73,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="drug_dose" id="8D44EAD1-EC98-77A6-18E6-5243ECF44648">
+<Attribute name="prescription_drug_dose" id="8D44EAD1-EC98-77A6-18E6-5243ECF44648">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 01:13:39 UTC</createdTime>
-<commentInRDBMS><![CDATA[drug dose]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[prescription drug dose]]></commentInRDBMS>
 <ownerDesignName>logical</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
@@ -89,10 +89,10 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="drug_freq_admin" id="E5EAF31C-611D-C09F-69CC-0ACF4C458E67">
+<Attribute name="prescription_drug_freq_admin" id="E5EAF31C-611D-C09F-69CC-0ACF4C458E67">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 01:14:09 UTC</createdTime>
-<commentInRDBMS><![CDATA[drug frequency of adminstration]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[prescription drug frequency of adminstration]]></commentInRDBMS>
 <ownerDesignName>logical</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>

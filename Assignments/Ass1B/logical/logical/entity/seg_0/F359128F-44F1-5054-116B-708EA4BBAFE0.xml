@@ -28,6 +28,22 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="vet_spec_code" id="3D6E1CC5-27CB-BB8D-7E76-554F7B48AFDF">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 15:25:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet specialisation code]]></commentInRDBMS>
+<generatorID>7E04E7E8-7BC0-63E7-5985-1432E21B2B31</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<referedAttribute>54DD0468-00B7-877A-7403-ACB990B8B586</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="vet_gname" id="A1B0AD57-2DEC-E3EE-4A7F-38C6AC305482">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 18:11:42 UTC</createdTime>
@@ -84,20 +100,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vet_specialization" id="B350FDB8-982B-3A01-C5DB-3C2BC257992C">
-<createdBy>Bassel</createdBy>
-<createdTime>2021-04-22 18:21:11 UTC</createdTime>
-<commentInRDBMS><![CDATA[vet specialization]]></commentInRDBMS>
-<ownerDesignName>logical</ownerDesignName>
-<engineerTo>
-<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="vet_homeclinic" id="98F3EC77-EE66-3FDB-7D47-D6BC7F4B5BDD">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 18:26:51 UTC</createdTime>
@@ -112,7 +114,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="foreignvisits_no" id="AD7E6A70-E5E6-5AE5-D636-B9C4C1FA59DE">
+<Attribute name="vet_foreignvisits_count" id="AD7E6A70-E5E6-5AE5-D636-B9C4C1FA59DE">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-22 18:24:41 UTC</createdTime>
 <commentInRDBMS><![CDATA[number of vet visits in clincs which aren't their home clinic]]></commentInRDBMS>
