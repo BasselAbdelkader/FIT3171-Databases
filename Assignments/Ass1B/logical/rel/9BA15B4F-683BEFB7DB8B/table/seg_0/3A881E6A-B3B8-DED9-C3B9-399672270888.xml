@@ -46,10 +46,10 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="qty_supplied" id="952B4BFB-850F-C3EE-EBA7-63BF7AA10029">
+<Column name="drug_qty_supplied" id="952B4BFB-850F-C3EE-EBA7-63BF7AA10029">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[quantity supplied]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[drug_quantity supplied]]></commentInRDBMS>
 <generatorID>9C4ECCA7-1435-66FC-8D58-0CEBCE158086</generatorID>
 <ownerDesignName>logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

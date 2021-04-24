@@ -34,10 +34,10 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="serv_time" id="16A883B2-2CFC-711D-EE4B-8DBE329E68C2">
+<Column name="invoice_serv_time" id="16A883B2-2CFC-711D-EE4B-8DBE329E68C2">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[service time]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[invoice_service time]]></commentInRDBMS>
 <generatorID>0DCB2710-2783-B82C-44AF-5A1CD768ADF8</generatorID>
 <ownerDesignName>logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,10 +47,10 @@
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="serv_date" id="D6D5E778-9D9F-0766-72F0-D0D99D924950">
+<Column name="invoice_serv_date" id="D6D5E778-9D9F-0766-72F0-D0D99D924950">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[service date]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[invoice_service date]]></commentInRDBMS>
 <generatorID>1814A60D-0502-3304-ECCF-685CE035FB1B</generatorID>
 <ownerDesignName>logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,10 +59,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="amount_due" id="6D374E31-0282-BD57-AA12-BF5EC8C72CF3">
+<Column name="invoice_amount_due" id="6D374E31-0282-BD57-AA12-BF5EC8C72CF3">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[amount due]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[invoice_amount due]]></commentInRDBMS>
 <generatorID>AD3CC0AE-C573-57F1-C9C9-02E78297FDB8</generatorID>
 <ownerDesignName>logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,10 +73,10 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="payment_method" id="E13ED374-08CB-02A6-FC86-7BC615AE95A5">
+<Column name="invoice_payment_method" id="E13ED374-08CB-02A6-FC86-7BC615AE95A5">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[payment method]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[invoice_payment method]]></commentInRDBMS>
 <generatorID>4DD258FD-FDE6-4874-0419-8AB24E281644</generatorID>
 <ownerDesignName>logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

@@ -47,7 +47,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -63,17 +63,17 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="2379D8A3-9842-B78C-77AC-667B4E18359E" referredColumn="87E20196-B711-F555-806F-B17776BA0D48"/>
 </associations>
 </Column>
-<Column name="drug_dose" id="DBA88D09-6C86-4084-AD38-5BB3FF03DC74">
+<Column name="prescription_drug_dose" id="DBA88D09-6C86-4084-AD38-5BB3FF03DC74">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[drug dose]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[prescription drug dose]]></commentInRDBMS>
 <generatorID>8D44EAD1-EC98-77A6-18E6-5243ECF44648</generatorID>
 <ownerDesignName>logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -83,10 +83,10 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="drug_freq_admin" id="75448E5D-4E2A-E732-4B7F-34EED1352D8D">
+<Column name="prescription_drug_freq_admin" id="75448E5D-4E2A-E732-4B7F-34EED1352D8D">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[drug frequency of adminstration]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[prescription drug frequency of adminstration]]></commentInRDBMS>
 <generatorID>E5EAF31C-611D-C09F-69CC-0ACF4C458E67</generatorID>
 <ownerDesignName>logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

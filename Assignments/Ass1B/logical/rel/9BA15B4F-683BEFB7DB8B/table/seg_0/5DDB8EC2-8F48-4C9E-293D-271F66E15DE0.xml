@@ -47,10 +47,10 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="prefvet_id" id="2E3FAF6C-1ED8-317F-B045-AF6684780A43">
+<Column name="owner_prefvet_id" id="2E3FAF6C-1ED8-317F-B045-AF6684780A43">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[preferred vet id]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[owner preferred vet id]]></commentInRDBMS>
 <generatorID>30EDA011-7E28-758B-7779-C0FB2E277EC2</generatorID>
 <ownerDesignName>logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

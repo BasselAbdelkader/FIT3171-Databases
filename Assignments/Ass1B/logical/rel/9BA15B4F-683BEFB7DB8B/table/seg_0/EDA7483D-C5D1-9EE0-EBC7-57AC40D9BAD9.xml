@@ -60,6 +60,40 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="owner_id" id="F5639F9F-B193-B274-E73F-A0961A888626">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 23:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner id]]></commentInRDBMS>
+<generatorID>9E8022C5-AABA-B677-A787-D53977A45E60</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC396D28-BD49-2C16-E581-595BE537361D" referredColumn="ABB1332F-DE08-3512-8AB5-277A53A05BE4"/>
+</associations>
+</Column>
+<Column name="clinic_id" id="0515C6B8-427A-305E-73E5-494C998DD9D3">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 23:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[clinic id]]></commentInRDBMS>
+<generatorID>D8043CAE-7F8A-8DF9-0705-6EE1DC447828</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB7CFBED-013B-8EEB-37D0-FBD4E4244226" referredColumn="2E13A547-C885-D523-BA27-9086FDE35EF7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="CB278A15-08E9-B154-F203-B5BFDAA0313D" name="VISIT_PK">
@@ -73,6 +107,28 @@
 <indexColumnUsage>
 <colUsage columnID="CEFF492D-EDF3-B01D-9498-A0F8DDEB0881"/>
 <colUsage columnID="2238A256-A9C6-978B-2DCA-400C746742C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28097F38-8B23-5537-4DFA-15E8B4E73F3D" name="CLINC_VISITS">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 23:01:30 UTC</createdTime>
+<generatorID>134D2248-FE9B-7FB9-35F0-3D2EDE0371FA</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0515C6B8-427A-305E-73E5-494C998DD9D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FA19395-F430-81A3-185A-C0A8DCAD3A4A" name="OWNER_VISITS">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 23:01:31 UTC</createdTime>
+<generatorID>73C41098-DB48-D32B-F34A-911DB4DFDA1B</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5639F9F-B193-B274-E73F-A0961A888626"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

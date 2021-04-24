@@ -98,7 +98,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="foreignvisits_no" id="6E72C7E3-9FD4-99B8-2C7C-2CC646C37346">
+<Column name="vet_foreignvisits_count" id="6E72C7E3-9FD4-99B8-2C7C-2CC646C37346">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 13:15:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[number of vet visits in clincs which aren't their home clinic]]></commentInRDBMS>
@@ -110,6 +110,23 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_spec_code" id="BB61A72F-C0AD-4209-1673-43906E04AC1A">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 23:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet specialisation code]]></commentInRDBMS>
+<generatorID>3D6E1CC5-27CB-BB8D-7E76-554F7B48AFDF</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84B2613D-5D1A-8FF4-3C07-53A2041D32CC" referredColumn="2326B0A9-B7CF-038B-416D-763581CEC134"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -123,6 +140,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="100690CE-B102-68E3-25C2-FEB5621019D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79E1E29E-E437-4831-4798-233F1BBC1806" name="VETSPECIALISATIONS_VETS">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-24 23:01:31 UTC</createdTime>
+<generatorID>7E04E7E8-7BC0-63E7-5985-1432E21B2B31</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB61A72F-C0AD-4209-1673-43906E04AC1A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
