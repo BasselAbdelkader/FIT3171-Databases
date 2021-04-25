@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00E7947E-40AD-BF98-51DA-63206586E105" name="PET_TYPE">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<generatorID>9335177C-AF11-1A8E-CFAC-B9668C8BBA00</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pet_type_code" id="09C2018A-C0F8-E61E-6FE2-E6E68A64C7EA">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet type code]]></commentInRDBMS>
+<generatorID>9A5B1712-BC10-9429-AE17-A6B800489EBF</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pet_type_name" id="6AA96B5E-38A1-8242-7BA7-3171CE362DEE">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet type name]]></commentInRDBMS>
+<generatorID>983B50D9-AB88-5E58-4D98-98E7EEF415EA</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56EE0E6F-ABB3-0B9A-1556-58D36CBC6DD1" name="PET_TYPE_PK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<generatorID>31ED1D04-80E3-67AE-E3D2-C3F46D93795A</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09C2018A-C0F8-E61E-6FE2-E6E68A64C7EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CF71AA9-A114-1333-93FA-C74E23472CA2" name="un_pettype_name">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<generatorID>8E3BB378-C2F8-27D0-6732-C3A56EAEC82A</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AA96B5E-38A1-8242-7BA7-3171CE362DEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

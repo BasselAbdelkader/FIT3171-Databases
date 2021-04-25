@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F61C1D7-1E06-92BE-4003-4D02BD966CE6" name="PRESCRIPTION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5468E6A9-4B58-168E-474D-0604C65EB679" name="PRESCRIPTION">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>3321CB73-796F-96E7-706A-8886CE175AE9</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="prescription_id" id="FD467554-05E1-8FD7-4A75-06B277E26EC1">
+<Column name="prescription_id" id="DDCA0D69-95A7-7FAA-5DEC-C56E3104B4A9">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
 <generatorID>3F994822-9FBD-D9E5-2F3A-E5B3C0445282</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="visit_date" id="CC68122D-CB86-2E4F-6180-8B4FE7DB3299">
+<Column name="visit_date" id="C36F3B31-4BD5-4575-5075-30707247EBE8">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <commentInRDBMS><![CDATA[visit_date]]></commentInRDBMS>
 <generatorID>CED91F77-E9A4-285D-81AF-50A7ADCEFAA9</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -34,12 +34,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3AA4C9C4-9F36-4B31-79A4-805C67AC0FA9" referredColumn="CEFF492D-EDF3-B01D-9498-A0F8DDEB0881"/>
+<colAssociation fkAssociation="AEB6E8C7-41A8-A8AD-D205-34B26001766B" referredColumn="F3DE72D8-ADBA-9203-1B10-1741362AB3B6"/>
 </associations>
 </Column>
-<Column name="pet_id" id="0EB9CA3A-6347-D296-AB2A-EB12ABDBBA54">
+<Column name="pet_id" id="57D176A0-0BE0-6548-916E-D17C9B3EEC2E">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <commentInRDBMS><![CDATA[pet_id]]></commentInRDBMS>
 <generatorID>2C974D80-939D-FDC1-066B-993EB80DA451</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -47,33 +47,33 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3AA4C9C4-9F36-4B31-79A4-805C67AC0FA9" referredColumn="2238A256-A9C6-978B-2DCA-400C746742C0"/>
+<colAssociation fkAssociation="AEB6E8C7-41A8-A8AD-D205-34B26001766B" referredColumn="E20555AF-1B24-1F17-486B-58FD68CDBC97"/>
 </associations>
 </Column>
-<Column name="drug_id" id="79113AED-E6C3-A443-3CBD-724B0586BF9C">
+<Column name="drug_id" id="4D38B105-7B91-1425-2F66-EA18FB412EC5">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>558C0B5B-4F0F-2AA7-11AE-4294F65CAA42</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2379D8A3-9842-B78C-77AC-667B4E18359E" referredColumn="87E20196-B711-F555-806F-B17776BA0D48"/>
+<colAssociation fkAssociation="8AD9069A-2260-C557-71E3-B7B8C459E9C3" referredColumn="DE33F529-2A0A-D9F5-8D2D-57A12F8EE6EE"/>
 </associations>
 </Column>
-<Column name="drug_dose" id="DBA88D09-6C86-4084-AD38-5BB3FF03DC74">
+<Column name="prescription_drug_dose" id="4402C7C7-3948-1841-1F7D-D61E33FEDC21">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[drug dose]]></commentInRDBMS>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[prescription drug dose]]></commentInRDBMS>
 <generatorID>8D44EAD1-EC98-77A6-18E6-5243ECF44648</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -83,10 +83,10 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="drug_freq_admin" id="75448E5D-4E2A-E732-4B7F-34EED1352D8D">
+<Column name="prescription_drug_freq_admin" id="5DBA7E0E-314E-52A8-1FFE-658D58E8F762">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[drug frequency of adminstration]]></commentInRDBMS>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[prescription drug frequency of adminstration]]></commentInRDBMS>
 <generatorID>E5EAF31C-611D-C09F-69CC-0ACF4C458E67</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -98,52 +98,52 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FF04F631-32A1-5873-4CBC-D0FC47CF9209" name="PRESCRIPTION_PK">
+<ind_PK_UK id="5871AE2D-C191-B0AC-FC78-AC50FBEEAC5E" name="PRESCRIPTION_PK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>B4DCC0C9-CBB7-A16E-F540-8DAE80D4D592</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FD467554-05E1-8FD7-4A75-06B277E26EC1"/>
+<colUsage columnID="DDCA0D69-95A7-7FAA-5DEC-C56E3104B4A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="74821F10-7A1C-3E2A-869B-8F2BE3577FDF" name="PRESCRIPTION_NK">
+<ind_PK_UK id="9660FDD8-63BB-4B8C-7512-F706B3771F3C" name="PRESCRIPTION_NK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>72985429-A63E-DFB3-00BB-310FB4225DA5</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CC68122D-CB86-2E4F-6180-8B4FE7DB3299"/>
-<colUsage columnID="0EB9CA3A-6347-D296-AB2A-EB12ABDBBA54"/>
-<colUsage columnID="79113AED-E6C3-A443-3CBD-724B0586BF9C"/>
+<colUsage columnID="C36F3B31-4BD5-4575-5075-30707247EBE8"/>
+<colUsage columnID="57D176A0-0BE0-6548-916E-D17C9B3EEC2E"/>
+<colUsage columnID="4D38B105-7B91-1425-2F66-EA18FB412EC5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9D6DB99D-C6B0-0C94-82DF-4AA95B33A2FF" name="DRUG_PRESCRIPTIONS">
+<ind_PK_UK id="BDAE9558-7DFF-033C-32FC-B7CE85BAD30A" name="DRUG_PRESCRIPTIONS">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>B6BF24D0-9A17-8EBE-3903-88A861F5E046</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="79113AED-E6C3-A443-3CBD-724B0586BF9C"/>
+<colUsage columnID="4D38B105-7B91-1425-2F66-EA18FB412EC5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E3371E43-4E79-A1C0-87AD-9E63F800E4A4" name="VISIT_PRESCRIPTIONS">
+<ind_PK_UK id="FF562CAA-2717-0903-C278-192F788AC7A6" name="VISIT_PRESCRIPTIONS">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>587BA5E5-2196-3D62-A2E9-A1A0D9C3EF60</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CC68122D-CB86-2E4F-6180-8B4FE7DB3299"/>
-<colUsage columnID="0EB9CA3A-6347-D296-AB2A-EB12ABDBBA54"/>
+<colUsage columnID="C36F3B31-4BD5-4575-5075-30707247EBE8"/>
+<colUsage columnID="57D176A0-0BE0-6548-916E-D17C9B3EEC2E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

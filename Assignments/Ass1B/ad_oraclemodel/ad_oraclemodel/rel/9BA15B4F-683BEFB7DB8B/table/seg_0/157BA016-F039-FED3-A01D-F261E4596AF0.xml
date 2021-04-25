@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="564EB6D8-0D7F-70A7-2227-A208000E4FE8" name="SERVICE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="157BA016-F039-FED3-A01D-F261E4596AF0" name="SERVICE">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>EA124D48-3421-04AB-1832-E563239D2166</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="serv_code" id="099659CD-5BF5-7942-00E2-BB4D940751F6">
+<Column name="serv_code" id="B0EADEC3-4DDE-E339-49C8-F38823EF4753">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <commentInRDBMS><![CDATA[service code]]></commentInRDBMS>
 <generatorID>86E261EA-EA4B-FADE-1D06-2B909CA3561D</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="serv_desc" id="66E9A812-E767-F67F-1E7D-EB2FBEA5386D">
+<Column name="serv_desc" id="E044FF5B-9D7E-4240-F469-34BFA29C390D">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <commentInRDBMS><![CDATA[service description]]></commentInRDBMS>
 <generatorID>A9452170-C67C-DB93-CC91-5E4A64802D85</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="serv_cost" id="BD361C8C-CC80-A6A8-9EB9-1160519B5012">
+<Column name="serv_cost" id="B54F4750-79C4-E6DD-2CD2-F6338B21E1A2">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <commentInRDBMS><![CDATA[service cost]]></commentInRDBMS>
 <generatorID>30F867B2-2311-86DC-0B94-591E4D61F246</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -50,16 +50,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2816054C-6883-9953-422B-1CE9E02AD4A8" name="SERVICE_PK">
+<ind_PK_UK id="2CD95226-24D0-DB7F-9A40-87EC5E47708F" name="SERVICE_PK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>6E349B9D-4164-9307-A5FD-E57B18DF3492</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="099659CD-5BF5-7942-00E2-BB4D940751F6"/>
+<colUsage columnID="B0EADEC3-4DDE-E339-49C8-F38823EF4753"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

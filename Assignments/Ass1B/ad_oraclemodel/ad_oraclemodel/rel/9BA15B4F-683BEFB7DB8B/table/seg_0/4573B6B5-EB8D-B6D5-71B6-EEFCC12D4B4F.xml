@@ -1,60 +1,60 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="068071FD-50C6-E55E-0284-353FA34321F9" name="INVOICE_DRUGS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4573B6B5-EB8D-B6D5-71B6-EEFCC12D4B4F" name="INVOICE_DRUGS">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="pet_id" id="79F9B0EE-D337-F44F-7E45-7BDE21542126">
+<Column name="pet_id" id="2BD7FBEA-BF7E-ED2E-D3E9-E7BA534C75B8">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="45124498-AEF9-E757-1B34-7A7B92790008" referredColumn="81FB4F19-4B71-C2BC-8A32-EB8C7438CE91"/>
+<colAssociation fkAssociation="A33619DD-022A-E95F-FC8F-B2E8DE129A11" referredColumn="1C39AE04-80D9-0CEE-C453-8EDC1AA76564"/>
 </associations>
 </Column>
-<Column name="vet_id" id="457FA8C2-AAB9-8ACB-2F1B-FD75C6385DF1">
+<Column name="vet_id" id="D6E3718F-512D-2394-74B1-2124D9F06D78">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="45124498-AEF9-E757-1B34-7A7B92790008" referredColumn="1C72988F-FA67-5610-731E-20171D2F8F11"/>
+<colAssociation fkAssociation="A33619DD-022A-E95F-FC8F-B2E8DE129A11" referredColumn="36E67A41-C3F0-6E24-55B1-FB7B52C074B8"/>
 </associations>
 </Column>
-<Column name="serv_time" id="544F195A-0EBF-4832-065F-96FD71359C17">
+<Column name="invoice_serv_time" id="1BF9E393-C493-5B94-FE75-01C79AE4ABAC">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="45124498-AEF9-E757-1B34-7A7B92790008" referredColumn="16A883B2-2CFC-711D-EE4B-8DBE329E68C2"/>
+<colAssociation fkAssociation="A33619DD-022A-E95F-FC8F-B2E8DE129A11" referredColumn="E0B65803-CF18-B6ED-FFB9-9BF945AE8C75"/>
 </associations>
 </Column>
-<Column name="serv_date" id="63B118B0-9591-CF1E-6FE6-529831ACD84A">
+<Column name="invoice_serv_date" id="E50A5B42-F4B0-7E0F-0FEA-4891245E42C8">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,64 +63,64 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="45124498-AEF9-E757-1B34-7A7B92790008" referredColumn="D6D5E778-9D9F-0766-72F0-D0D99D924950"/>
+<colAssociation fkAssociation="A33619DD-022A-E95F-FC8F-B2E8DE129A11" referredColumn="1D59094D-A771-2E84-AA44-5D8EC44971B1"/>
 </associations>
 </Column>
-<Column name="drug_id" id="142CF83C-DB5F-6986-8D84-08F459832C94">
+<Column name="drug_id" id="FEADFDC9-6DF2-FF27-EA7A-ABAB6D5D3C60">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FB572808-2265-3E5B-65DB-0ED42B58DA13" referredColumn="87E20196-B711-F555-806F-B17776BA0D48"/>
+<colAssociation fkAssociation="08E5914E-ECB7-2836-5D46-B0A6E41FE68E" referredColumn="DE33F529-2A0A-D9F5-8D2D-57A12F8EE6EE"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="ADF9C862-EB67-07CB-ACFC-37D76A8003BC" name="INVOICE_DRUGS_PK">
+<ind_PK_UK id="414926CB-FB3D-5A4E-A902-CB2DAA43E157" name="INVOICE_DRUGS_PK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="79F9B0EE-D337-F44F-7E45-7BDE21542126"/>
-<colUsage columnID="457FA8C2-AAB9-8ACB-2F1B-FD75C6385DF1"/>
-<colUsage columnID="544F195A-0EBF-4832-065F-96FD71359C17"/>
-<colUsage columnID="63B118B0-9591-CF1E-6FE6-529831ACD84A"/>
-<colUsage columnID="142CF83C-DB5F-6986-8D84-08F459832C94"/>
+<colUsage columnID="2BD7FBEA-BF7E-ED2E-D3E9-E7BA534C75B8"/>
+<colUsage columnID="D6E3718F-512D-2394-74B1-2124D9F06D78"/>
+<colUsage columnID="1BF9E393-C493-5B94-FE75-01C79AE4ABAC"/>
+<colUsage columnID="E50A5B42-F4B0-7E0F-0FEA-4891245E42C8"/>
+<colUsage columnID="FEADFDC9-6DF2-FF27-EA7A-ABAB6D5D3C60"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8AAF9A6B-5B3B-C270-235E-6D3B53AD79C5" name="INVOICE_DRUGS_INVOICE_FK">
+<ind_PK_UK id="4145D89E-EC4B-581C-60BF-EF11B0FDDEC8" name="INVOICE_DRUGS_INVOICE_FK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>54B2C380-B34B-9DDD-ADD5-67A5F10BFF3B</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="79F9B0EE-D337-F44F-7E45-7BDE21542126"/>
-<colUsage columnID="457FA8C2-AAB9-8ACB-2F1B-FD75C6385DF1"/>
-<colUsage columnID="544F195A-0EBF-4832-065F-96FD71359C17"/>
-<colUsage columnID="63B118B0-9591-CF1E-6FE6-529831ACD84A"/>
+<colUsage columnID="2BD7FBEA-BF7E-ED2E-D3E9-E7BA534C75B8"/>
+<colUsage columnID="D6E3718F-512D-2394-74B1-2124D9F06D78"/>
+<colUsage columnID="1BF9E393-C493-5B94-FE75-01C79AE4ABAC"/>
+<colUsage columnID="E50A5B42-F4B0-7E0F-0FEA-4891245E42C8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6FD44F96-4425-E999-99F9-702FE117798F" name="INVOICE_DRUGS_DRUG_FK">
+<ind_PK_UK id="DF7CB992-2D93-5F7F-595F-0B9EB44357E8" name="INVOICE_DRUGS_DRUG_FK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<createdTime>2021-04-25 17:44:37 UTC</createdTime>
 <generatorID>54B2C380-B34B-9DDD-ADD5-67A5F10BFF3B</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="142CF83C-DB5F-6986-8D84-08F459832C94"/>
+<colUsage columnID="FEADFDC9-6DF2-FF27-EA7A-ABAB6D5D3C60"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
