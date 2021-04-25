@@ -4,7 +4,7 @@
 --   type:      Oracle Database 11g
 
 set echo on
-spool animaldoctors.txt
+spool ad_schema_output.txt
 
 DROP TABLE clinic CASCADE CONSTRAINTS;
 

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BD04F65-44B5-07D0-0946-3EDDA7240B89" name="OWNER">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-22 17:15:11 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="owner_id" id="394306C1-080F-0464-FA4D-8151DE1F0BE2">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-22 17:16:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner id]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_gname" id="6103537A-1855-CB4F-BA44-178601D5A7E3">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-22 17:19:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner given name]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_fname" id="41350B22-0157-6315-A47A-568017868621">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-22 17:22:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner family name]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_prefvet_id" id="30EDA011-7E28-758B-7779-C0FB2E277EC2">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-22 17:23:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner preferred vet id]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_address" id="45693016-73F5-190B-7220-004673775167">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-22 17:24:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner address]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_no" id="EDA041F6-1DDF-F32B-00F0-E8451AD8D10B">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-22 17:26:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner phone number]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="556116DD-3356-9744-9307-B5F7BBF962A3" name="OWNER PK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-22 17:18:06 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>394306C1-080F-0464-FA4D-8151DE1F0BE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D56EC5D7-43B7-9C40-0E28-E3575F77E6B4" name="PET">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<generatorID>E10F233F-A352-6BB4-DC34-FDFCEF5A2EB2</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pet_id" id="B5DC0B2F-2C14-9A21-DC19-DBFA01F5CCBF">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet id]]></commentInRDBMS>
+<generatorID>E6EE1462-5053-9685-89E6-9CACF75EC618</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="owner_id" id="A24FFB8A-2E48-3925-99A3-158B46B07DFA">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner id]]></commentInRDBMS>
+<generatorID>FFE0FB9C-034D-1DBE-D941-38D79BC16ADD</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DACAA6EB-CF0B-7963-A488-3FC6E86A1834" referredColumn="ABB1332F-DE08-3512-8AB5-277A53A05BE4"/>
+</associations>
+</Column>
+<Column name="pet_name" id="64E6B755-55E2-883F-DD68-7A394C53D996">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet name]]></commentInRDBMS>
+<generatorID>FE5231EF-26D9-6BFB-7492-A30B7A1E794D</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pet_gender" id="01567B43-2A77-D0FF-CE96-BDEE2BF32CF7">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet gender]]></commentInRDBMS>
+<generatorID>18443E51-EC80-0FAE-2AF0-1FA8C1C4C046</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<constraintName>gender</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Female"/>
+<valueDef value="M" description="Male"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pet_dob" id="F8AD3D01-163B-3B93-C5D1-B655261072E9">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet date of birth]]></commentInRDBMS>
+<generatorID>E53A0FE8-A048-3F06-35CE-98044355B0AB</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pet_status" id="707A2095-4395-F156-21AF-5E902CFBE4F6">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet status (deceased or alive)]]></commentInRDBMS>
+<generatorID>94F060E8-B222-8C9E-E93C-03F007CF2696</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pet_type_code" id="83ECF2B3-4D54-6DCB-ED8F-2030A5055D9E">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet type code]]></commentInRDBMS>
+<generatorID>4D35F270-3304-5DB3-A945-7561F18D9B7A</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA87C7C7-9B1B-4EF5-3327-F9AACD5F3E12" referredColumn="34987573-FC56-22ED-C934-51B83049370F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="661C10CA-429F-49D4-8D98-1E677BD4E826" name="PET_PK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<generatorID>06FD3D1E-8615-A7F5-3314-60E54FC66F90</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5DC0B2F-2C14-9A21-DC19-DBFA01F5CCBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35EBA7D2-455C-0F93-ED3F-62B190347E3E" name="OWNER_PETS">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<generatorID>2294B0C6-2101-7AA1-8CBC-6498A601DE23</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A24FFB8A-2E48-3925-99A3-158B46B07DFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F24DCEA-5403-9A78-CB79-0F9503EF56C3" name="PETTYPE_PETS">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 13:15:45 UTC</createdTime>
+<generatorID>18D27E72-AF57-0CE6-71C8-0C58CBB4B6C4</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83ECF2B3-4D54-6DCB-ED8F-2030A5055D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

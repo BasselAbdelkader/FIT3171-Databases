@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="oracle_model" id="A5B11ED6-A23E-A03E-7B7A-D32F2149EFE6" version="3.5">
-<createdBy>Bassel</createdBy>
-<createdTime>2021-04-21 19:52:24 UTC</createdTime>
-<ownerDesignName>logical</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>A5B11ED6-A23E-A03E-7B7A-D32F2149EFE6</designId>
-</OSDM_Design>
