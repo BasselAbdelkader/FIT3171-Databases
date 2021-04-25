@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B666845D-9A6F-BB20-9A28-8E0A0F3B99B2" name="VET">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0601C53-0003-0C19-CAB7-406E1B4005CA" name="VET">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>F359128F-44F1-5054-116B-708EA4BBAFE0</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="vet_id" id="0B3E5BD7-40C9-6046-55D2-21E8EB32B319">
+<Column name="vet_id" id="62243A34-BD77-D08D-3F49-A8CCB4DB0B3D">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>3B512CD4-F926-3860-06A2-619EC00708EF</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vet_spec_code" id="B7770840-600A-D9F4-CC41-786767B00977">
+<Column name="vet_spec_code" id="97F5BFE9-5270-2C02-EB8C-5A6191CE4857">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[vet specialisation code]]></commentInRDBMS>
 <generatorID>3D6E1CC5-27CB-BB8D-7E76-554F7B48AFDF</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -34,12 +34,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="24CBB78C-56D6-DA37-0091-081DC0798AA2" referredColumn="9A92685E-3B10-B0A6-126A-E9EC093F8FBE"/>
+<colAssociation fkAssociation="32F7A397-AD37-37A3-5CB6-4435A1A5287D" referredColumn="E7C865DC-C1E9-5177-F149-49B41A963E8C"/>
 </associations>
 </Column>
-<Column name="vet_gname" id="0F16D8C6-0056-EDEC-3A01-43A4ACACB15C">
+<Column name="vet_gname" id="E720E34F-F023-9723-0C8B-A5D87B02CCA9">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[vet  given name]]></commentInRDBMS>
 <generatorID>A1B0AD57-2DEC-E3EE-4A7F-38C6AC305482</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -50,9 +50,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vet_fname" id="549AEC07-C0B3-D0E6-B348-67FF0339A54C">
+<Column name="vet_fname" id="962F5C60-ECA4-5066-BC07-089D6A00FC9B">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[vet family name]]></commentInRDBMS>
 <generatorID>D8557245-0582-1A15-453F-3EF9260C1398</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -63,9 +63,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vet_no" id="F122A08F-9E35-46D5-CBFE-7F8579DDD3E4">
+<Column name="vet_no" id="0C6F58C7-3979-A405-3596-F67466EF9824">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[vet phone number]]></commentInRDBMS>
 <generatorID>F3AB6C8D-516F-7274-E806-8A0DCDE75CF1</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -77,9 +77,9 @@
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vet_empdate" id="BACB7524-92D5-B2C5-ED41-54B7BA8A8834">
+<Column name="vet_empdate" id="BF2329EA-13CB-35F6-60D9-2C6DBD213BE8">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[vet employment date]]></commentInRDBMS>
 <generatorID>A0642163-93FA-B47A-4498-56D46BA92B9A</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -89,9 +89,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vet_homeclinic" id="6E7047CC-6C7B-9BB0-A3E7-5422233E2461">
+<Column name="vet_homeclinic" id="4A1CE380-E987-76EA-0DF0-CF376A875B95">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[vet home clinic]]></commentInRDBMS>
 <generatorID>98F3EC77-EE66-3FDB-7D47-D6BC7F4B5BDD</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -102,9 +102,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="vet_foreignvisits_count" id="71F1DE26-0E3F-F0FC-9659-117509353EE7">
+<Column name="vet_foreignvisits_count" id="B69D2429-25A6-34EF-7FED-4E93D66B8007">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[number of vet visits in clincs which aren't their home clinic]]></commentInRDBMS>
 <generatorID>AD7E6A70-E5E6-5AE5-D636-B9C4C1FA59DE</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -117,27 +117,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="21DF98F2-8B01-998E-A337-6A50A665CE58" name="VET_PK">
+<ind_PK_UK id="4AEC546C-75DB-DF0D-8223-25CB7573A7C4" name="VET_PK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>7C2D71D7-03C7-6E6F-AA0B-4049B8D90F1A</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0B3E5BD7-40C9-6046-55D2-21E8EB32B319"/>
+<colUsage columnID="62243A34-BD77-D08D-3F49-A8CCB4DB0B3D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="16A41CA2-76E9-2FEF-675B-02B78BFB567F" name="VETSPECIALISATIONS_VETS">
+<ind_PK_UK id="D93BB35C-A0E4-FE48-96A4-D408D091BB6F" name="VETSPECIALISATIONS_VETS">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>7E04E7E8-7BC0-63E7-5985-1432E21B2B31</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B7770840-600A-D9F4-CC41-786767B00977"/>
+<colUsage columnID="97F5BFE9-5270-2C02-EB8C-5A6191CE4857"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4129A19C-86B9-0FA6-7761-A4D4BB3D7965" name="CLINIC_VETS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="984A4892-79C3-C419-7BA6-E05B12F4DD36" name="CLINIC_VETS">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="clinic_id" id="400AAB9D-8D10-E41B-2204-D6BB76ED4E01">
+<Column name="clinic_id" id="5B2A6556-C618-673F-93A2-EF6D91F4DC98">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E264DF5D-2F06-CD6F-CAD5-A91B77A021B7" referredColumn="414015C9-320A-D1BA-2AFC-F879B97F3708"/>
+<colAssociation fkAssociation="8A87F586-7C49-0B30-3CE2-692F99755E20" referredColumn="3396F78A-5BB8-7F6E-2ED8-1534863A53D3"/>
 </associations>
 </Column>
-<Column name="vet_id" id="78367E5F-1EFB-C49C-7D62-044B10EACB50">
+<Column name="vet_id" id="A2C3E99E-CFD2-7672-14C4-1A71833D17B3">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,43 +34,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CB52096E-272E-2D2F-5E1B-F5235D6995C6" referredColumn="0B3E5BD7-40C9-6046-55D2-21E8EB32B319"/>
+<colAssociation fkAssociation="93835979-917E-DDBF-3416-A6208A77713D" referredColumn="62243A34-BD77-D08D-3F49-A8CCB4DB0B3D"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8FF06842-1A22-126C-3964-E9CA254436C1" name="CLINIC_VETS_PK">
+<ind_PK_UK id="FC65598C-B6FA-B549-4501-0BA537B0C88E" name="CLINIC_VETS_PK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="400AAB9D-8D10-E41B-2204-D6BB76ED4E01"/>
-<colUsage columnID="78367E5F-1EFB-C49C-7D62-044B10EACB50"/>
+<colUsage columnID="5B2A6556-C618-673F-93A2-EF6D91F4DC98"/>
+<colUsage columnID="A2C3E99E-CFD2-7672-14C4-1A71833D17B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="41D0905B-5EA0-FD2B-5359-316D56CB050A" name="CLINIC_VETS_CLINIC_FK">
+<ind_PK_UK id="D1000694-0749-F6EB-2B59-8F179F693941" name="CLINIC_VETS_CLINIC_FK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>37D3FB12-F7FE-957C-82A9-DB9519811105</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="400AAB9D-8D10-E41B-2204-D6BB76ED4E01"/>
+<colUsage columnID="5B2A6556-C618-673F-93A2-EF6D91F4DC98"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CF9169C4-9E21-9FD2-9E68-0B29887C5013" name="CLINIC_VETS_VET_FK">
+<ind_PK_UK id="DA35BF04-0CCB-87B0-4929-FEB50DF09713" name="CLINIC_VETS_VET_FK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>37D3FB12-F7FE-957C-82A9-DB9519811105</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="78367E5F-1EFB-C49C-7D62-044B10EACB50"/>
+<colUsage columnID="A2C3E99E-CFD2-7672-14C4-1A71833D17B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F360B3A-E52C-244A-3B0B-1B48C1D86907" name="CLINIC">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59C670A2-9547-D659-B0EF-005A6E0260EF" name="CLINIC">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>E25DF9B2-2D5E-B767-EED3-865521ABF602</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="clinic_id" id="414015C9-320A-D1BA-2AFC-F879B97F3708">
+<Column name="clinic_id" id="3396F78A-5BB8-7F6E-2ED8-1534863A53D3">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[clinic id]]></commentInRDBMS>
 <generatorID>84683057-1A4E-9471-BFCA-20D1F36B912F</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -21,9 +21,9 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="clinic_name" id="ACDF1CB7-55E3-7B3B-0E99-87E1E0F25F04">
+<Column name="clinic_name" id="0B60F1E0-BAB2-6FE3-B20A-77E720B9FAA4">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[clinic name]]></commentInRDBMS>
 <generatorID>10F17B5E-24F7-04B8-91CD-5734FDE95A2C</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -34,9 +34,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="clinic_address" id="6D9DDA2B-17EE-D75C-50C7-220CF1C4F951">
+<Column name="clinic_address" id="0D4874AC-1F63-CD5A-A0FE-CB3B8EECAF4C">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[clinic address]]></commentInRDBMS>
 <generatorID>E626A369-6277-30CF-2BBD-6F30AD9E6B64</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -47,9 +47,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="clinic_no" id="F4C69F55-D087-C0FC-4C5E-312BEF602444">
+<Column name="clinic_no" id="9EE785F7-F0FC-4035-D088-776802E9AEC2">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[clinic phone number]]></commentInRDBMS>
 <generatorID>446808A8-F66C-3767-0A67-ED98A67F2943</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -63,16 +63,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="87231696-2B51-45E6-A436-53F38152E467" name="CLINIC_PK">
+<ind_PK_UK id="D5C12FF7-19CB-0794-97BC-8BB256A12A4C" name="CLINIC_PK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>425F69C9-92B7-662B-4DA2-216C05F68D16</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="414015C9-320A-D1BA-2AFC-F879B97F3708"/>
+<colUsage columnID="3396F78A-5BB8-7F6E-2ED8-1534863A53D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

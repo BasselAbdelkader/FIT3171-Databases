@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A3B44B3-2C52-F9B8-9742-E714334ADB47" name="DRUG">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18A43C65-797E-C9D0-55EA-3A3479EEA86F" name="DRUG">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>6551C855-EBF4-7EBD-94A7-37CB07BC2478</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="drug_id" id="DE33F529-2A0A-D9F5-8D2D-57A12F8EE6EE">
+<Column name="drug_id" id="19769586-5E56-776A-F4AB-D72FDBFAB9C1">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>FD0BA20D-3EF4-5FF2-0E04-04FFAEE77F6E</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="drug_name" id="770BE281-FC11-2B04-98C8-8011BDC8140F">
+<Column name="drug_name" id="1433B114-62F0-1197-33B3-6486EB6BA956">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[drug name]]></commentInRDBMS>
 <generatorID>656DE002-794A-FB36-E0BC-44F2A82C356D</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -33,9 +33,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="drug_instructions" id="56D1CA39-9F0F-242D-0DCE-93B0CB914BD9">
+<Column name="drug_instructions" id="E9E1D444-08F6-4C8C-10E1-A229C7A4AE5A">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[drug instructions]]></commentInRDBMS>
 <generatorID>79F1933B-4AB8-0A51-3F6E-28949C726408</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -46,9 +46,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="drug_qty_supplied" id="62784123-5A43-F3FB-21C4-DF2FE159D0CC">
+<Column name="drug_qty_supplied" id="02151C81-5B71-6F54-8CCA-340AD1226AD5">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[drug_quantity supplied]]></commentInRDBMS>
 <generatorID>9C4ECCA7-1435-66FC-8D58-0CEBCE158086</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -59,9 +59,9 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="drug_cost" id="886E1285-F6F5-86AC-3FD1-70BFDF13E14A">
+<Column name="drug_cost" id="BF26F23E-CC7F-F283-7727-48369FB241CD">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[drug cost]]></commentInRDBMS>
 <generatorID>DCD064D7-38C8-85FD-1114-C93033450998</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
@@ -75,16 +75,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B8E260F8-4A82-BCC7-83E1-7773408EBBBD" name="DRUG_PK">
+<ind_PK_UK id="FB73E57C-81D0-4754-13B1-2042013D4D4C" name="DRUG_PK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
 <generatorID>2F432CAD-059D-12C6-0EEA-F76B501AE354</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DE33F529-2A0A-D9F5-8D2D-57A12F8EE6EE"/>
+<colUsage columnID="19769586-5E56-776A-F4AB-D72FDBFAB9C1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

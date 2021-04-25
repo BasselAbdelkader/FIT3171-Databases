@@ -1,31 +1,31 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00E7947E-40AD-BF98-51DA-63206586E105" name="PET_TYPE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1552720B-11C1-EC96-642B-A2F49282EBC1" name="VET_SPECIALISATIONS">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
-<generatorID>9335177C-AF11-1A8E-CFAC-B9668C8BBA00</generatorID>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
+<generatorID>BEF403AE-07A9-11D7-62F6-F39A1E05F71A</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="pet_type_code" id="09C2018A-C0F8-E61E-6FE2-E6E68A64C7EA">
+<Column name="vet_spec_code" id="E7C865DC-C1E9-5177-F149-49B41A963E8C">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
-<commentInRDBMS><![CDATA[pet type code]]></commentInRDBMS>
-<generatorID>9A5B1712-BC10-9429-AE17-A6B800489EBF</generatorID>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet specialisation code]]></commentInRDBMS>
+<generatorID>54DD0468-00B7-877A-7403-ACB990B8B586</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pet_type_name" id="6AA96B5E-38A1-8242-7BA7-3171CE362DEE">
+<Column name="vet_spec_name" id="8FC46EB0-1BAD-FA38-B6F7-D2367A8C4E61">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
-<commentInRDBMS><![CDATA[pet type name]]></commentInRDBMS>
-<generatorID>983B50D9-AB88-5E58-4D98-98E7EEF415EA</generatorID>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet specialisation name]]></commentInRDBMS>
+<generatorID>F3FBF6DA-5F09-49D7-48D5-66A25FAD99C6</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,27 +36,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="56EE0E6F-ABB3-0B9A-1556-58D36CBC6DD1" name="PET_TYPE_PK">
+<ind_PK_UK id="E6BA340D-98EC-04BB-C944-57554D199B3E" name="VET_SPECIALISATIONS_PK">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
-<generatorID>31ED1D04-80E3-67AE-E3D2-C3F46D93795A</generatorID>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
+<generatorID>F2B6CA8C-8BF2-F899-876D-E45F3777872A</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="09C2018A-C0F8-E61E-6FE2-E6E68A64C7EA"/>
+<colUsage columnID="E7C865DC-C1E9-5177-F149-49B41A963E8C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7CF71AA9-A114-1333-93FA-C74E23472CA2" name="un_pettype_name">
+<ind_PK_UK id="6EEEABAB-5C5A-E91D-7B05-162931634E17" name="UN_SPEC_NAME">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-25 17:44:37 UTC</createdTime>
-<generatorID>8E3BB378-C2F8-27D0-6732-C3A56EAEC82A</generatorID>
+<createdTime>2021-04-25 23:49:29 UTC</createdTime>
+<generatorID>B7F83B72-578B-8603-4993-200C3C97F340</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6AA96B5E-38A1-8242-7BA7-3171CE362DEE"/>
+<colUsage columnID="8FC46EB0-1BAD-FA38-B6F7-D2367A8C4E61"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
