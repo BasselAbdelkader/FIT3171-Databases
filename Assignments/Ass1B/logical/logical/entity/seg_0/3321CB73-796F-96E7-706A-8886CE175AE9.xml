@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3321CB73-796F-96E7-706A-8886CE175AE9" name="PRESCRIPTION">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 01:11:34 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prescription_id" id="3F994822-9FBD-D9E5-2F3A-E5B3C0445282">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 12:52:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_date" id="CED91F77-E9A4-285D-81AF-50A7ADCEFAA9">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 01:29:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit_date]]></commentInRDBMS>
+<generatorID>587BA5E5-2196-3D62-A2E9-A1A0D9C3EF60</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<referedAttribute>F178023C-5A6A-0C2D-F396-D75BC9ECFF93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pet_id" id="2C974D80-939D-FDC1-066B-993EB80DA451">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 01:29:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet_id]]></commentInRDBMS>
+<generatorID>587BA5E5-2196-3D62-A2E9-A1A0D9C3EF60</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<referedAttribute>D108BD05-461D-34F5-9835-E322C44957D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drug_id" id="558C0B5B-4F0F-2AA7-11AE-4294F65CAA42">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 01:33:01 UTC</createdTime>
+<generatorID>B6BF24D0-9A17-8EBE-3903-88A861F5E046</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<referedAttribute>FD0BA20D-3EF4-5FF2-0E04-04FFAEE77F6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prescription_drug_dose" id="8D44EAD1-EC98-77A6-18E6-5243ECF44648">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 01:13:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[prescription drug dose]]></commentInRDBMS>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prescription_drug_freq_admin" id="E5EAF31C-611D-C09F-69CC-0ACF4C458E67">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 01:14:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[prescription drug frequency of adminstration]]></commentInRDBMS>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4DCC0C9-CBB7-A16E-F540-8DAE80D4D592" name="PRESCRIPTION PK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 12:52:44 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F994822-9FBD-D9E5-2F3A-E5B3C0445282</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="72985429-A63E-DFB3-00BB-310FB4225DA5" name="PRESCRIPTION NK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-23 12:56:14 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<newElementsIDs>587BA5E5-2196-3D62-A2E9-A1A0D9C3EF60,B6BF24D0-9A17-8EBE-3903-88A861F5E046</newElementsIDs>
+<usedAttributes>
+<attributeRef>CED91F77-E9A4-285D-81AF-50A7ADCEFAA9</attributeRef>
+<attributeRef>2C974D80-939D-FDC1-066B-993EB80DA451</attributeRef>
+<attributeRef>558C0B5B-4F0F-2AA7-11AE-4294F65CAA42</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
