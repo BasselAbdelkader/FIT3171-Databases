@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F2F165B-D903-FF21-11EB-C4C20A606BC1" name="VET_SPECIALISATIONS">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<generatorID>BEF403AE-07A9-11D7-62F6-F39A1E05F71A</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vet_spec_code" id="655000D0-8081-2A9A-B6B2-FCABE1B49D39">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet specialisation code]]></commentInRDBMS>
+<generatorID>54DD0468-00B7-877A-7403-ACB990B8B586</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_spec_name" id="02591DBB-C2A9-C0A8-4B1C-BCC1513B0225">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet specialisation name]]></commentInRDBMS>
+<generatorID>F3FBF6DA-5F09-49D7-48D5-66A25FAD99C6</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B81291E9-F03C-BBB4-0C0B-9BA50E6B1DD6" name="VET_SPECIALISATIONS_PK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<generatorID>F2B6CA8C-8BF2-F899-876D-E45F3777872A</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="655000D0-8081-2A9A-B6B2-FCABE1B49D39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CBCD099-E1F7-203E-E1ED-0D2422C1B2EA" name="UN_SPEC_NAME">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<generatorID>B7F83B72-578B-8603-4993-200C3C97F340</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02591DBB-C2A9-C0A8-4B1C-BCC1513B0225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

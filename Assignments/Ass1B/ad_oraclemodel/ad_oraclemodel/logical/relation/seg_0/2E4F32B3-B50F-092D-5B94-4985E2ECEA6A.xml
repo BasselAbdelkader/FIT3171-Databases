@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PET_INVOICES" directorySegmentName="seg_0" id="2E4F32B3-B50F-092D-5B94-4985E2ECEA6A">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 02:08:15 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<sourcePk>06FD3D1E-8615-A7F5-3314-60E54FC66F90</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>mentioned in</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E10F233F-A352-6BB4-DC34-FDFCEF5A2EB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1AB252C2-A37A-FA49-0F8D-D5AFDB50908F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

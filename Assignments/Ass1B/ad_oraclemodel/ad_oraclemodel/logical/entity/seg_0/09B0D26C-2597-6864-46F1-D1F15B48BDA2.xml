@@ -15,6 +15,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pet_id" id="37DC8FFF-51AA-795F-E899-147A475BC4CA">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 02:01:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet id]]></commentInRDBMS>
+<generatorID>8D94FF88-DCDC-0AC8-3DFA-8514173EDE75</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<referedAttribute>E6EE1462-5053-9685-89E6-9CACF75EC618</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="visit_date" id="F178023C-5A6A-0C2D-F396-D75BC9ECFF93">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 00:01:24 UTC</createdTime>
@@ -27,36 +43,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="pet_id" id="D108BD05-461D-34F5-9835-E322C44957D3">
-<createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 00:02:28 UTC</createdTime>
-<commentInRDBMS><![CDATA[pet_id]]></commentInRDBMS>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="owner_id" id="9E8022C5-AABA-B677-A787-D53977A45E60">
-<createdBy>Bassel</createdBy>
-<createdTime>2021-04-24 14:23:10 UTC</createdTime>
-<commentInRDBMS><![CDATA[owner id]]></commentInRDBMS>
-<generatorID>73C41098-DB48-D32B-F34A-911DB4DFDA1B</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
-</engineerTo>
-<referedAttribute>394306C1-080F-0464-FA4D-8151DE1F0BE2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="clinic_id" id="D8043CAE-7F8A-8DF9-0705-6EE1DC447828">
 <createdBy>Bassel</createdBy>
@@ -72,7 +58,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="visit_length" id="6FE70D43-ED45-8F3E-6D7B-CCF5D0F5EAD0">
 <createdBy>Bassel</createdBy>
@@ -115,7 +101,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F178023C-5A6A-0C2D-F396-D75BC9ECFF93</attributeRef>
-<attributeRef>D108BD05-461D-34F5-9835-E322C44957D3</attributeRef>
+<attributeRef>37DC8FFF-51AA-795F-E899-147A475BC4CA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -99,10 +99,15 @@
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
 </engineerTo>
+<constraintName>chk_pet_status</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="pet_type_code" id="4D35F270-3304-5DB3-A945-7561F18D9B7A">

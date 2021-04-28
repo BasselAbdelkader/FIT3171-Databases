@@ -44,22 +44,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pet_id" id="2C974D80-939D-FDC1-066B-993EB80DA451">
-<createdBy>Bassel</createdBy>
-<createdTime>2021-04-23 01:29:20 UTC</createdTime>
-<commentInRDBMS><![CDATA[pet_id]]></commentInRDBMS>
-<generatorID>587BA5E5-2196-3D62-A2E9-A1A0D9C3EF60</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
-</engineerTo>
-<referedAttribute>D108BD05-461D-34F5-9835-E322C44957D3</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="drug_id" id="558C0B5B-4F0F-2AA7-11AE-4294F65CAA42">
 <createdBy>Bassel</createdBy>
 <createdTime>2021-04-23 01:33:01 UTC</createdTime>
@@ -74,6 +58,22 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pet_id" id="FD481245-081F-EF37-DBA3-BE204730D18E">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 02:02:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet id]]></commentInRDBMS>
+<generatorID>587BA5E5-2196-3D62-A2E9-A1A0D9C3EF60</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
+</engineerTo>
+<referedAttribute>37DC8FFF-51AA-795F-E899-147A475BC4CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="prescription_drug_dose" id="8D44EAD1-EC98-77A6-18E6-5243ECF44648">
 <createdBy>Bassel</createdBy>
@@ -127,7 +127,6 @@
 <newElementsIDs>587BA5E5-2196-3D62-A2E9-A1A0D9C3EF60,B6BF24D0-9A17-8EBE-3903-88A861F5E046</newElementsIDs>
 <usedAttributes>
 <attributeRef>CED91F77-E9A4-285D-81AF-50A7ADCEFAA9</attributeRef>
-<attributeRef>2C974D80-939D-FDC1-066B-993EB80DA451</attributeRef>
 <attributeRef>558C0B5B-4F0F-2AA7-11AE-4294F65CAA42</attributeRef>
 </usedAttributes>
 </identifier>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20392C9C-E0A2-0A12-EC96-4F4C10148AA2" name="INVOICE_SERVICES">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="invoice_serv_time" id="E75A8786-6D7D-E02D-9A3C-2E8B2A5A4DB2">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFE2BCE-9C05-C657-B5BF-F4DFBE6C513E" referredColumn="998C3024-055F-F3F3-BFA7-781A1C08603B"/>
+</associations>
+</Column>
+<Column name="invoice_serv_date" id="73898EB4-1E62-A229-2AE3-E2A43EE3CE75">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFE2BCE-9C05-C657-B5BF-F4DFBE6C513E" referredColumn="D738FF20-BE14-F833-D415-D86E14A09D5A"/>
+</associations>
+</Column>
+<Column name="vet_id" id="24117EB2-EA4F-76C8-AC40-E83823470A1C">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFE2BCE-9C05-C657-B5BF-F4DFBE6C513E" referredColumn="60339C20-7DF4-E4B1-2F86-FD637BFF4BEE"/>
+</associations>
+</Column>
+<Column name="pet_id" id="D51B255A-2F3A-57D9-C419-73D9B3986320">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFE2BCE-9C05-C657-B5BF-F4DFBE6C513E" referredColumn="AE10EDAB-C5E1-1C88-11F6-2AC9203E5820"/>
+</associations>
+</Column>
+<Column name="serv_code" id="0E2520A8-FA0A-5C9D-AE7E-489E003CF925">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB983045-1721-F198-719F-E0B7138D3C03" referredColumn="C968ADEF-9834-E6DA-74EA-6B8BDC58E089"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="723A2864-B2B1-4CB3-DB17-BDC26ECA8E52" name="INVOICE_SERVICES_PK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E75A8786-6D7D-E02D-9A3C-2E8B2A5A4DB2"/>
+<colUsage columnID="73898EB4-1E62-A229-2AE3-E2A43EE3CE75"/>
+<colUsage columnID="24117EB2-EA4F-76C8-AC40-E83823470A1C"/>
+<colUsage columnID="D51B255A-2F3A-57D9-C419-73D9B3986320"/>
+<colUsage columnID="0E2520A8-FA0A-5C9D-AE7E-489E003CF925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73E40E1B-7A92-3B01-71BB-58D442C53601" name="INVOICE_SERVICES_INVOICE_FK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<generatorID>B0412F0E-28F0-ACC2-77A2-54766F44815E</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E75A8786-6D7D-E02D-9A3C-2E8B2A5A4DB2"/>
+<colUsage columnID="73898EB4-1E62-A229-2AE3-E2A43EE3CE75"/>
+<colUsage columnID="24117EB2-EA4F-76C8-AC40-E83823470A1C"/>
+<colUsage columnID="D51B255A-2F3A-57D9-C419-73D9B3986320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5351669B-AA2E-FD26-FBE9-ED163576C64C" name="INVOICE_SERVICES_SERVICE_FK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<generatorID>B0412F0E-28F0-ACC2-77A2-54766F44815E</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E2520A8-FA0A-5C9D-AE7E-489E003CF925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

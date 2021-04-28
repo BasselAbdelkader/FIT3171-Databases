@@ -1,5 +1,4 @@
 SQL> 
-SQL> 
 SQL> DROP TABLE clinic CASCADE CONSTRAINTS;
 
 Table CLINIC dropped.
@@ -173,8 +172,8 @@ Table DRUG altered.
 
 SQL> 
 SQL> CREATE TABLE invoice (
-  2      pet_id                  NUMBER(7) NOT NULL,
-  3      vet_id                  NUMBER(7) NOT NULL,
+  2      vet_id                  NUMBER(7) NOT NULL,
+  3      pet_id                  NUMBER(7) NOT NULL,
   4      invoice_serv_time       VARCHAR2(5) NOT NULL,
   5      invoice_serv_date       DATE NOT NULL,
   6      invoice_amount_due      NUMBER(10, 2) NOT NULL,
@@ -186,12 +185,6 @@ Table INVOICE created.
 SQL> 
 SQL> COMMENT ON COLUMN invoice.pet_id IS
   2      'pet id';
-
-Comment created.
-
-SQL> 
-SQL> COMMENT ON COLUMN invoice.vet_id IS
-  2      'vet id';
 
 Comment created.
 
@@ -221,19 +214,19 @@ Comment created.
 
 SQL> 
 SQL> ALTER TABLE invoice
-  2      ADD CONSTRAINT invoice_pk PRIMARY KEY ( pet_id,
-  3                                              vet_id,
-  4                                              invoice_serv_time,
-  5                                              invoice_serv_date );
+  2      ADD CONSTRAINT invoice_pk PRIMARY KEY ( invoice_serv_time,
+  3                                              invoice_serv_date,
+  4                                              vet_id,
+  5                                              pet_id );
 
 Table INVOICE altered.
 
 SQL> 
 SQL> CREATE TABLE invoice_drugs (
-  2      pet_id             NUMBER(7) NOT NULL,
-  3      vet_id             NUMBER(7) NOT NULL,
-  4      invoice_serv_time  VARCHAR2(5) NOT NULL,
-  5      invoice_serv_date  DATE NOT NULL,
+  2      invoice_serv_time  VARCHAR2(5) NOT NULL,
+  3      invoice_serv_date  DATE NOT NULL,
+  4      vet_id             NUMBER(7) NOT NULL,
+  5      pet_id             NUMBER(7) NOT NULL,
   6      drug_id            NUMBER(7) NOT NULL
   7  );
 
@@ -241,20 +234,20 @@ Table INVOICE_DRUGS created.
 
 SQL> 
 SQL> ALTER TABLE invoice_drugs
-  2      ADD CONSTRAINT invoice_drugs_pk PRIMARY KEY ( pet_id,
-  3                                                    vet_id,
-  4                                                    invoice_serv_time,
-  5                                                    invoice_serv_date,
+  2      ADD CONSTRAINT invoice_drugs_pk PRIMARY KEY ( invoice_serv_time,
+  3                                                    invoice_serv_date,
+  4                                                    vet_id,
+  5                                                    pet_id,
   6                                                    drug_id );
 
 Table INVOICE_DRUGS altered.
 
 SQL> 
 SQL> CREATE TABLE invoice_services (
-  2      pet_id             NUMBER(7) NOT NULL,
-  3      vet_id             NUMBER(7) NOT NULL,
-  4      invoice_serv_time  VARCHAR2(5) NOT NULL,
-  5      invoice_serv_date  DATE NOT NULL,
+  2      invoice_serv_time  VARCHAR2(5) NOT NULL,
+  3      invoice_serv_date  DATE NOT NULL,
+  4      vet_id             NUMBER(7) NOT NULL,
+  5      pet_id             NUMBER(7) NOT NULL,
   6      serv_code          VARCHAR2(10) NOT NULL
   7  );
 
@@ -262,10 +255,10 @@ Table INVOICE_SERVICES created.
 
 SQL> 
 SQL> ALTER TABLE invoice_services
-  2      ADD CONSTRAINT invoice_services_pk PRIMARY KEY ( pet_id,
-  3                                                       vet_id,
-  4                                                       invoice_serv_time,
-  5                                                       invoice_serv_date,
+  2      ADD CONSTRAINT invoice_services_pk PRIMARY KEY ( invoice_serv_time,
+  3                                                       invoice_serv_date,
+  4                                                       vet_id,
+  5                                                       pet_id,
   6                                                       serv_code );
 
 Table INVOICE_SERVICES altered.
@@ -339,6 +332,12 @@ Table PET created.
 SQL> 
 SQL> ALTER TABLE pet
   2      ADD CONSTRAINT gender CHECK ( pet_gender IN ( 'F', 'M' ) );
+
+Table PET altered.
+
+SQL> 
+SQL> ALTER TABLE pet
+  2      ADD CONSTRAINT chk_pet_status CHECK ( pet_status IN ( 'N', 'Y' ) );
 
 Table PET altered.
 
@@ -423,8 +422,8 @@ SQL>
 SQL> CREATE TABLE prescription (
   2      prescription_id               NUMBER(7) NOT NULL,
   3      visit_date                    DATE NOT NULL,
-  4      pet_id                        NUMBER(7) NOT NULL,
-  5      drug_id                       NUMBER(7) NOT NULL,
+  4      drug_id                       NUMBER(7) NOT NULL,
+  5      pet_id                        NUMBER(7) NOT NULL,
   6      prescription_drug_dose        VARCHAR2(20) NOT NULL,
   7      prescription_drug_freq_admin  VARCHAR2(20) NOT NULL
   8  );
@@ -445,7 +444,7 @@ Comment created.
 
 SQL> 
 SQL> COMMENT ON COLUMN prescription.pet_id IS
-  2      'pet_id';
+  2      'pet id';
 
 Comment created.
 
@@ -467,10 +466,8 @@ SQL> ALTER TABLE prescription ADD CONSTRAINT prescription_pk PRIMARY KEY ( presc
 Table PRESCRIPTION altered.
 
 SQL> 
-SQL> ALTER TABLE prescription
-  2      ADD CONSTRAINT prescription_nk UNIQUE ( visit_date,
-  3                                              pet_id,
-  4                                              drug_id );
+SQL> ALTER TABLE prescription ADD CONSTRAINT prescription_nk UNIQUE ( visit_date,
+  2                                                                   drug_id );
 
 Table PRESCRIPTION altered.
 
@@ -600,31 +597,24 @@ Table VET_SPECIALISATIONS altered.
 
 SQL> 
 SQL> CREATE TABLE visit (
-  2      visit_date    DATE NOT NULL,
-  3      pet_id        NUMBER(7) NOT NULL,
-  4      owner_id      NUMBER(7) NOT NULL,
-  5      clinic_id     NUMBER(7) NOT NULL,
-  6      visit_length  VARCHAR2(10) NOT NULL,
-  7      visit_notes   VARCHAR2(50)
-  8  );
+  2      pet_id        NUMBER(7) NOT NULL,
+  3      visit_date    DATE NOT NULL,
+  4      clinic_id     NUMBER(7) NOT NULL,
+  5      visit_length  VARCHAR2(10) NOT NULL,
+  6      visit_notes   VARCHAR2(50)
+  7  );
 
 Table VISIT created.
 
 SQL> 
+SQL> COMMENT ON COLUMN visit.pet_id IS
+  2      'pet id';
+
+Comment created.
+
+SQL> 
 SQL> COMMENT ON COLUMN visit.visit_date IS
   2      'visit_date';
-
-Comment created.
-
-SQL> 
-SQL> COMMENT ON COLUMN visit.pet_id IS
-  2      'pet_id';
-
-Comment created.
-
-SQL> 
-SQL> COMMENT ON COLUMN visit.owner_id IS
-  2      'owner id';
 
 Comment created.
 
@@ -708,27 +698,27 @@ Table INVOICE_DRUGS altered.
 
 SQL> 
 SQL> ALTER TABLE invoice_drugs
-  2      ADD CONSTRAINT invoice_drugs_invoice_fk FOREIGN KEY ( pet_id,
-  3                                                            vet_id,
-  4                                                            invoice_serv_time,
-  5                                                            invoice_serv_date )
-  6          REFERENCES invoice ( pet_id,
-  7                               vet_id,
-  8                               invoice_serv_time,
-  9                               invoice_serv_date );
+  2      ADD CONSTRAINT invoice_drugs_invoice_fk FOREIGN KEY ( invoice_serv_time,
+  3                                                            invoice_serv_date,
+  4                                                            vet_id,
+  5                                                            pet_id )
+  6          REFERENCES invoice ( invoice_serv_time,
+  7                               invoice_serv_date,
+  8                               vet_id,
+  9                               pet_id );
 
 Table INVOICE_DRUGS altered.
 
 SQL> 
 SQL> ALTER TABLE invoice_services
-  2      ADD CONSTRAINT invoice_services_invoice_fk FOREIGN KEY ( pet_id,
-  3                                                               vet_id,
-  4                                                               invoice_serv_time,
-  5                                                               invoice_serv_date )
-  6          REFERENCES invoice ( pet_id,
-  7                               vet_id,
-  8                               invoice_serv_time,
-  9                               invoice_serv_date );
+  2      ADD CONSTRAINT invoice_services_invoice_fk FOREIGN KEY ( invoice_serv_time,
+  3                                                               invoice_serv_date,
+  4                                                               vet_id,
+  5                                                               pet_id )
+  6          REFERENCES invoice ( invoice_serv_time,
+  7                               invoice_serv_date,
+  8                               vet_id,
+  9                               pet_id );
 
 Table INVOICE_SERVICES altered.
 
@@ -747,9 +737,16 @@ SQL> ALTER TABLE pet
 Table PET altered.
 
 SQL> 
+SQL> ALTER TABLE invoice
+  2      ADD CONSTRAINT pet_invoices FOREIGN KEY ( pet_id )
+  3          REFERENCES pet ( pet_id );
+
+Table INVOICE altered.
+
+SQL> 
 SQL> ALTER TABLE visit
-  2      ADD CONSTRAINT owner_visits FOREIGN KEY ( owner_id )
-  3          REFERENCES owner ( owner_id );
+  2      ADD CONSTRAINT pet_visits FOREIGN KEY ( pet_id )
+  3          REFERENCES pet ( pet_id );
 
 Table VISIT altered.
 
@@ -759,6 +756,13 @@ SQL> ALTER TABLE pet
   3          REFERENCES pet_type ( pet_type_code );
 
 Table PET altered.
+
+SQL> 
+SQL> ALTER TABLE invoice
+  2      ADD CONSTRAINT vet_invoices FOREIGN KEY ( vet_id )
+  3          REFERENCES vet ( vet_id );
+
+Table INVOICE altered.
 
 SQL> 
 SQL> ALTER TABLE vet
@@ -794,6 +798,5 @@ SQL> ALTER TABLE visit_visits
 
 Table VISIT_VISITS altered.
 
-SQL> 
 SQL> 
 SQL> spool off

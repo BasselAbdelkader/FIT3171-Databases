@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AFFE2BCE-9C05-C657-B5BF-F4DFBE6C513E" containerWithKeyObject="20392C9C-E0A2-0A12-EC96-4F4C10148AA2" localFKIndex="73E40E1B-7A92-3B01-71BB-58D442C53601" name="INVOICE_SERVICES_INVOICE_FK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<generatorID>B0412F0E-28F0-ACC2-77A2-54766F44815E</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<referredTableLongName>INVOICE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0AEFFFEE-6BB8-6461-96ED-3F4FB3148984</referredTableID>
+<keyObject>00C156DE-D8FC-8E40-3340-127C100DA74A</keyObject>
+<referredKeyID>00C156DE-D8FC-8E40-3340-127C100DA74A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>invoice_serv_time,invoice_serv_date,vet_id,pet_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -15,33 +15,36 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="pet_id" id="C4B9FCD9-DF1C-2418-6402-BB750E2BAE21">
+<Attribute name="vet_id" id="9D2BA20E-7621-8203-0C73-510D5345EB8C">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-22 19:00:12 UTC</createdTime>
-<commentInRDBMS><![CDATA[pet id]]></commentInRDBMS>
+<createdTime>2021-04-28 02:04:16 UTC</createdTime>
+<generatorID>E675FABD-E7F1-B6DA-B361-3EE5B36C0FD1</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
 </engineerTo>
+<referedAttribute>3B512CD4-F926-3860-06A2-619EC00708EF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vet_id" id="B717CA2C-C93A-EFF0-B05E-39A0FA5F3FFE">
+<Attribute name="pet_id" id="DD20E51E-64B1-A1E6-F9FF-C3C6BB76ECBA">
 <createdBy>Bassel</createdBy>
-<createdTime>2021-04-22 19:01:22 UTC</createdTime>
-<commentInRDBMS><![CDATA[vet id]]></commentInRDBMS>
+<createdTime>2021-04-28 02:08:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[pet id]]></commentInRDBMS>
+<generatorID>2E4F32B3-B50F-092D-5B94-4985E2ECEA6A</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="9BA15B4F-8F51-51B5-D483-683BEFB7DB8B" value="true"/>
 </engineerTo>
+<referedAttribute>E6EE1462-5053-9685-89E6-9CACF75EC618</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="invoice_serv_time" id="0DCB2710-2783-B82C-44AF-5A1CD768ADF8">
 <createdBy>Bassel</createdBy>
@@ -110,10 +113,10 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C4B9FCD9-DF1C-2418-6402-BB750E2BAE21</attributeRef>
-<attributeRef>B717CA2C-C93A-EFF0-B05E-39A0FA5F3FFE</attributeRef>
 <attributeRef>0DCB2710-2783-B82C-44AF-5A1CD768ADF8</attributeRef>
 <attributeRef>1814A60D-0502-3304-ECCF-685CE035FB1B</attributeRef>
+<attributeRef>9D2BA20E-7621-8203-0C73-510D5345EB8C</attributeRef>
+<attributeRef>DD20E51E-64B1-A1E6-F9FF-C3C6BB76ECBA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4702EA8F-B334-7FF9-DACE-5020CFC08740" name="VISIT_VISITS">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="visit_date" id="94B4B8CD-E9F4-7A94-B599-0C03B06D74A8">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79C5153F-D299-F852-C946-6A0FABB299B8" referredColumn="7898CBA2-1DD0-C4D7-66F8-F1D085CF3D05"/>
+</associations>
+</Column>
+<Column name="pet_id" id="425133A6-F67C-7905-583B-2FD36F5A692D">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79C5153F-D299-F852-C946-6A0FABB299B8" referredColumn="7B7C21A8-8250-D2E4-8088-6A6F3754B54A"/>
+</associations>
+</Column>
+<Column name="visit_date1" id="519DCBF3-DF67-F334-7A0F-F196ED7808BE">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCB02D63-82F7-D1A4-0006-C29DAF892B0F" referredColumn="7898CBA2-1DD0-C4D7-66F8-F1D085CF3D05"/>
+</associations>
+</Column>
+<Column name="pet_id1" id="ADC36BFA-1B54-142F-53B4-49DE5965F4B9">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCB02D63-82F7-D1A4-0006-C29DAF892B0F" referredColumn="7B7C21A8-8250-D2E4-8088-6A6F3754B54A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE436540-D606-9F89-CB7D-95AB7E82A39C" name="VISIT_VISITS_PK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94B4B8CD-E9F4-7A94-B599-0C03B06D74A8"/>
+<colUsage columnID="425133A6-F67C-7905-583B-2FD36F5A692D"/>
+<colUsage columnID="519DCBF3-DF67-F334-7A0F-F196ED7808BE"/>
+<colUsage columnID="ADC36BFA-1B54-142F-53B4-49DE5965F4B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="795E37A4-4A89-DCC5-E83E-11A00A3A45AD" name="VISIT_VISITS_VISIT_FK">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<generatorID>31753E51-7B89-2C75-63BD-4E40EFF9E4F5</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94B4B8CD-E9F4-7A94-B599-0C03B06D74A8"/>
+<colUsage columnID="425133A6-F67C-7905-583B-2FD36F5A692D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDC2FF54-08BE-E7CB-9605-3D48A1A10245" name="VISIT_VISITS_VISIT_FKv1">
+<createdBy>Bassel</createdBy>
+<createdTime>2021-04-28 04:47:39 UTC</createdTime>
+<generatorID>31753E51-7B89-2C75-63BD-4E40EFF9E4F5</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="519DCBF3-DF67-F334-7A0F-F196ED7808BE"/>
+<colUsage columnID="ADC36BFA-1B54-142F-53B4-49DE5965F4B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
