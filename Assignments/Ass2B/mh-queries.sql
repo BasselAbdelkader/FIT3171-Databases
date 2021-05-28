@@ -32,11 +32,13 @@ WHERE
 end_last_annual_review > TO_DATE('31/03/2020', 'dd/mm/yyyy')
 ORDER BY
 review_date ASC;
+
 /*
     Q2
 */
 -- PLEASE PLACE REQUIRED SQL STATEMENT FOR THIS PART HERE
 -- ENSURE your query has a semicolon (;) at the end of this answer
+
 SELECT
 t.client_fname,
 t.client_lname,
@@ -56,6 +58,7 @@ ORDER BY
 */
 -- PLEASE PLACE REQUIRED SQL STATEMENT FOR THIS PART HERE
 -- ENSURE your query has a semicolon (;) at the end of this answer
+
 SELECT
 c.charter_nbr,
 TRIM(client_fname|| ' ' || client_lname) AS fullname,
@@ -75,6 +78,10 @@ fullname DESC;
     Q4
 
 */
+
+-- PLEASE PLACE REQUIRED SQL STATEMENT FOR THIS PART HERE
+-- ENSURE your query has a semicolon (;) at the end of this answer
+
 SELECT
 ht.ht_name,
 ht.ht_nbr,
@@ -85,9 +92,6 @@ JOIN MH.helicopter h  ON ht.ht_nbr = h.ht_nbr group by  ht.ht_name,  ht.ht_nbr
 HAVING COUNT(ht.ht_nbr) >=2
 ORDER BY
 num_of_heli_owned DESC;
-
--- PLEASE PLACE REQUIRED SQL STATEMENT FOR THIS PART HERE
--- ENSURE your query has a semicolon (;) at the end of this answer
 
 
 /*
@@ -106,6 +110,7 @@ num_of_heli_owned DESC;
 
 -- PLEASE PLACE REQUIRED SQL STATEMENT FOR THIS PART HERE
 -- ENSURE your query has a semicolon (;) at the end of this answer
+
 SELECT
 ht.ht_name,
 ht.ht_nbr,
@@ -146,6 +151,7 @@ charter_leg.cl_atd desc;
 */
 -- PLEASE PLACE REQUIRED SQL STATEMENT FOR THIS PART HERE
 -- ENSURE your query has a semicolon (;) at the end of this answer
+
 select 
 charter.charter_nbr, 
 trim(employee.emp_fname || ' ' || employee.emp_lname) as pilot_name, 
@@ -158,6 +164,7 @@ where
 to_char(charter_leg.cl_etd, 'dd/mon/yyyy hh:mi:sspm') = to_char(charter_leg.cl_atd, 'dd/mon/yyyy hh:mi:sspm')
 order by
 charter.charter_nbr;
+
 /*
     Q10
 */
